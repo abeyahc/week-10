@@ -309,36 +309,129 @@ $$R = \text{Relation of congruence modulo 3}$$
 }
 
 \noindent \textbf{\#14}
-\sol{}
+\sol{Use the technique of Example 8.4.4 to find $14^2 \: mod \: 55$, $14^4 \: mod \: 55$, $14^8 \: mod \: 55$, $14^{16} \: mod \: 55$
+\begin{align*}
+    & \text{$14^2 \: mod \: 55 = 196 \: mod \: 55 = 31$} \\
+    & \text{$14^4 \: mod \: 55 = (14^2 \: mod \: 55)^2 = (31)^2 \: mod \: 55 = 26$} \\
+    & \text{$14^8 \: mod \: 55 = (14^4 \: mod \: 55)^2 = (26)^2 \: mod \: 55 = 16$} \\
+    & \text{$14^{16} \: mod \: 55 = (14^8 \: mod \: 55)^2 = (16)^2 \: mod \: 55 = 36$} \\
+\end{align*}
+}
 
 \noindent \textbf{\#15}
-\sol{}
+\sol{Use the result of \#14 to find $14^{27} \: mod \: 55$
+\begin{align*}
+    & \text{$14^{27} \: mod \: 55 = (14^{16} \cdot 14^{8} \cdot 14^2 \cdot 14^1) \: mod \: 55$} \\
+    & \text{$14^{27} \: mod \: 55 = (31 \cdot 16 \cdot 26 \cdot 36) \: mod \: 55$} \\
+    & \text{$14^{27} \: mod \: 55 = 249984 \: mod \: 55 = 9$} \\
+\end{align*}
+}
 
 \noindent \textbf{\#19}
-\sol{}
+\sol{ HELLO
+\begin{align*}
+    & \text{$C=M^e \: mod \: pq$ $e = 3$ and $pq = 55$} \\
+    & \text{08 05 12 12 15} \\
+    & \text{$C = 08^3 \: mod 55 \:  = 512 \: mod \: 55 = 17$} \\
+    & \text{$C = 05^3 \: mod 55 \:  = 125 \: mod \: 55 = 15$} \\
+    & \text{$C = 12^3 \: mod 55 \:  = 1728 \: mod \: 55 = 23$} \\
+    & \text{$C = 12^3 \: mod 55 \:  = 1728 \: mod \: 55 = 23$} \\
+    & \text{$C = 15^3 \: mod 55 \:  = 3375 \: mod \: 55 = 20$} \\
+    & \text{17 15 23 23 20 = QOWWT} \\
+\end{align*}
+}
 
 \noindent \textbf{\#22}
-\sol{}
+\sol{ 13 20 20 09
+\begin{align*}
+    & \text{$M = C^d mod pq$ with $d = 27$ and $pq = 55$} \\
+    & \text{$C = 13^{27} \: mod \: 55 = 7$} \\
+    & \text{$C = 20^{27} \: mod \: 55 = 15$} \\
+    & \text{$C = 20^{27} \: mod \: 55 = 15$} \\
+    & \text{$C = 09^{27} \: mod \: 55 = 4$} \\
+    & \text{07 15 15 04 = GOOD} \\
+\end{align*}
+}
 
 \noindent \textbf{\#26}
-\sol{}
+\sol{ Use Euclidean algorith to find greatest common divisor of 6664 and 765. Express as linear combination of two numbers. 
+\begin{align*}
+    & \text{$6664 = 8 \cdot 765 + 544$} \\
+    & \text{$765 = 1 \cdot 544 + 221$} \\
+    & \text{$554 = 2 \cdot 221 + 102$} \\
+    & \text{$221 = 2 \cdot 102 + 17$} \\
+    & \text{$102 = 6 \cdot 17 + 0$} \\
+    & \text{gcd(6664, 765) = 17} \\
+    & \text{$17 = 221 - 2 \cdot 102$} \\
+    & \text{$17 = 221 - 2(544 - 2(221))$} \\
+    & \text{$17 = 5(221) - 2(544)$} \\
+    & \text{$17 = 5(765 - 544) - 2(544)$} \\
+    & \text{$17 = 5(765) - 7(544)$} \\
+    & \text{$17 = 5(765) - 7(6664 - 8(765))$} \\
+    & \text{$17 = 61 \cdot 765 - 7 \cdot 6664 $} \\
+\end{align*}
+}
 
-\noindent \textbf{\#31}
-\sol{}
+\noindent \textbf{\#31a}
+\sol{ Find an inverse for 210 modulo 13
+\begin{align*}
+    & \text{$210 = 16 \cdot 13 + 2$} \\
+    & \text{$13 = 6 \cdot 2 + 1$} \\
+    & \text{$2 = 2 \cdot 1 + 0$} \\
+    & \text{gcd(210, 13) = 1} \\
+    & \text{$1 = 13 - 6 \cdot 2$} \\
+    & \text{$1 = 13 - 6(210 - 16 \cdot 13)$} \\
+    & \text{$1 = 97 \cdot 13 - 6 \cdot 210$} \\
+    & \text{$((-6)\cdot 210) \: mod \: 13 = (1-97 \cdot 13) \: mod \: 13$} \\
+    & \text{$((-6)\cdot 210) \: mod \: 13 = 1$} \\
+    & \text{Therefore, the inverse of 210 modulo 13 is -6} \\
+\end{align*}
+}
+\noindent \textbf{\#31b}
+\sol{ Find a positive inverse for 210 modulo 13
+\begin{align*}
+    & \text{$-6\: mod \: 13 = (-6 + 0) \: mod \: 13$} \\
+    & \text{$(-6\: mod \: 13 + 13 \: mod \: 13) \: mod \: 13$ \tcp*{$0 \: mod \: 13 = 0 =13$}} \\
+    & \text{$(-6 + 13) \: mod \: 13$} \\
+    & \text{$7 \: mod \: 13$} \\
+    & \text{Therefore, the positive inverse of 210 modulo 13 is 7} \\
+\end{align*}
+}
+\noindent \textbf{\#31c}
+\sol{ Find a positive solution for the congruence $210x \equiv 8 \pmod{13}$
+\begin{align*}
+    & \text{$a \equiv b \pmod{c}$ is equivalent with $a\: mod \:c = b \: mod \: c$} \\
+    & \text{$210x \equiv 8 \pmod{13}$} \\
+    & \text{$210x \: mod \: 13 = 8 \: mod \: 13$} \\
+    & \text{$x \: mod \: 13 = 7 \cdot 8 \: mod \: 13$} \\
+    & \text{$x \: mod \: 13 = 56 \: mod \: 13$} \\
+    & \text{$x \: mod \: 13 = 4$} \\
+    & \text{Therefore, the positive solution for the congruence $210x \equiv 8 \pmod{13}$ is 4} \\
+\end{align*}
+}
 
 \noindent \textbf{\#36}
-\sol{}
+\sol{ HELP, $n = 713 = 23 \cdot 31$ and $e=43$
+\begin{align*}
+    & \text{$C = M^e \: mod \: pq$} \\
+    & \text{H is $8^43 \: mod \: 713 = 233$} \\
+    & \text{E is $5^43 \: mod \: 713 = 129$} \\
+    & \text{L is $12^43 \: mod \: 713 = 048$} \\
+    & \text{P is $16^43 \: mod \: 713 = 128$} \\
+\end{align*}
+}
+\newpage
 
 \noindent \textbf{\#39}
-\sol{}
-
-
-
-
-
-
-
-
-
+\sol{$n = 713 = 23 \cdot 31$ and $e=43$ and $d=307$ the inverse of 43 where $d \equiv e^{-1} \pmod{\phi(n)}$ where $n=pq$ and $\phi(n)=(p-1)(q-1)$
+\begin{align*}
+    & \text{$675 089 089 048$} \\
+    & \text{$675^{307} \: mod \: 713 = 3$} \\
+    & \text{$089^{307} \: mod \: 713 = 15$} \\
+    & \text{$089^{307} \: mod \: 713 = 15$} \\
+    & \text{$048^{307} \: mod \: 713 = 12$} \\
+    & \text{The message is COOL} \\
+\end{align*}
+}
 
 \end{document}

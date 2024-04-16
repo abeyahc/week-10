@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1713302295 "/Users/abeyahc/Documents/Discrete Math/Notes Latex/week 10/week10.tex" "week10.pdf" "week10" 1713302296 2
-  "/Users/abeyahc/Documents/Discrete Math/Notes Latex/week 10/week10.tex" 1713302293 9277 1d391835ec2c3ce8193f6a75df5423ec ""
+["pdflatex"] 1713307353 "/Users/abeyahc/Documents/Discrete Math/Notes Latex/week 10/week-10-/week10.tex" "week10.pdf" "week10" 1713307355 2
+  "/Users/abeyahc/Documents/Discrete Math/Notes Latex/week 10/week-10-/week10.tex" 1713307353 13834 ff10d564d726909b89027260f090c013 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -13,8 +13,11 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm" 1136768653 768 d7b9a2629a0c353102ad947dc9221d49 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/NewPXMI.tfm" 1591219423 1160 c2197cdaa08622262260a0a34b1dfcef ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/NewPXMI_gnu.tfm" 1570136818 748 0258bafb3cb53bfddd528993739cf619 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newpx/pxmiaX.tfm" 1634156854 1732 18a727750846a1c3e7271725c4449898 ""
@@ -38,7 +41,9 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb" 1248133631 24287 6b803fa9eb1ddff9112e00519b09dd9e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb" 1591219423 25273 57c06ae0831a03c4eb441ef7894a1639 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb" 1570136818 16003 379767f2e95213e4cfc7bfd5823fb860 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb" 1634156854 55131 37a379baccd50ac17c5ca120b382f7a1 ""
@@ -272,8 +277,8 @@
   "letterfonts.tex" 1711471960 8524 300377c5f733ebe6aa4b7f8e56db5921 ""
   "macros.tex" 1711471960 3389 93000260d2aea292d29c76d4ace77a29 ""
   "preamble.tex" 1711471960 20053 cac64cd8837854e12008c40220fda887 ""
-  "week10.aux" 1713302296 676 57b2a1daef250bbea58b826700684477 "pdflatex"
-  "week10.tex" 1713302293 9277 1d391835ec2c3ce8193f6a75df5423ec ""
+  "week10.aux" 1713307354 676 f1d0960bd2a88eb8f2714dfe2b1cb542 "pdflatex"
+  "week10.tex" 1713307353 13834 ff10d564d726909b89027260f090c013 ""
   (generated)
   "week10.aux"
   "week10.log"
